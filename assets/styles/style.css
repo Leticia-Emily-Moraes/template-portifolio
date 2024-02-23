@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    font-family: "Wellfleet", monospace;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    background-color: beige;
+}
+nav ul{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav ul .logo{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav ul .link{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul .RedesSociais{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    margin: 10px 0px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: black;
+}
+nav ul li a:hover{
+    color: royalblue;
+}
+nav ul li img{
+    width: 50px;
+}
+header .banner{
+    width: 100%;
+    height: 50vh;
+    background-color: #DFE0DB;
+    background-image: url(../imgs/ImgBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
